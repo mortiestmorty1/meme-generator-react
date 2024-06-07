@@ -1,0 +1,51 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #672280,#A626D3); 
+  }
+  .image{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10px;
+    color: white;
+  }
+  .navbar h1{
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .info{
+    margin-left: 100px;
+  }
+  .inputs-container{
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  .top{
+    position: absolute;
+    top: 100px;
+  }
+  .bottom{
+    position: absolute;
+    margin-left: 300px;
+    top: 100px;
+  }
+  .topinput{
+    position: absolute;
+    top: 125px;
+    
+  }
+  .bottominput{
+    position: absolute;
+    top: 125px;
+    margin-left: 300px;
+  }
+  .generate{
+    margin-left: 25%px;
+  }

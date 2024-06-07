@@ -1,0 +1,31 @@
+
+import './App.css';
+import React from "react";
+import Navbar from "./components/Navbar";
+import Inputs from "./components/inputs";
+import { useState } from 'react';
+import boxes from "./components/boxes";
+import Box from "./components/box";
+
+function App(props) {
+ const [fistname , setFistname] = useState("1")
+ function handleChange(event){
+  setFistname(event.target.value)
+ }
+  return (
+    <div className="App">
+      <Navbar />
+      <Inputs />
+      <form>
+      <input 
+      type="text" 
+      placeholder="first name" 
+      onChange={handleChange}> 
+      </input>
+      <h1>{fistname}</h1>
+      </form>
+    </div>
+  );
+}
+
+export default App;

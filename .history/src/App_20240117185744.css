@@ -1,0 +1,9 @@
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #672280,#A626D3); 
+            
+  padding: 10px;
+  }

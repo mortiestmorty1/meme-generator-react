@@ -1,0 +1,17 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #672280,#A626D3); 
+  }
+  .image{
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-around;
+ 
+    margin-right: 10px;
+  }

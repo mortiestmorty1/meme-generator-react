@@ -1,0 +1,13 @@
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #672280,#A626D3); 
+  }
+  .image{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin-left: 10px;
+  }

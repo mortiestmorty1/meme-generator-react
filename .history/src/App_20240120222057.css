@@ -1,0 +1,100 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #672280,#A626D3); 
+  }
+  .image{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10px;
+    color: white;
+  }
+  .navbar h1{
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .info{
+    margin-left: 100px;
+  }
+  .inputs-container{
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .top{
+    position: absolute;
+    top: 100px;
+  }
+  .bottom{
+    position: absolute;
+    margin-left: 300px;
+    top: 100px;
+  }
+  .topinput{
+    position: absolute;
+    top: 125px;
+    height: 35px;
+    width: 35%;
+  }
+  .bottominput{
+    position: absolute;
+    top: 125px;
+    margin-left: 300px;
+    height: 35px;
+    width: 35%;
+  }
+  .generate{
+    margin-left: 5%;
+    margin-top: 20%;
+    background: linear-gradient(to right, #672280,#A626D3);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 400px;
+    height: 40px;
+  }
+  .memeimage{
+    margin-left: 15%;
+    margin-top: 15%;
+    width: 300px;
+    height: 300px;
+  }
+  .box{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .top-text{
+    position: absolute;
+    top: 150px;
+    left: 15%;
+    width: 300px;
+    height: 300px;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-shadow:2px 2px 2px 2px black;
+  }
+  .bottom-text{
+    position: absolute;
+    top: 400px;
+    left: 15%;
+    width: 300px;
+    height: 300px;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px black;
+  }
